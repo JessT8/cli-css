@@ -1,5 +1,5 @@
-var convertHex =require("./hexToRgb");
-var convertRgb = require("./rgbToHex");
+var convertHex =require("./convertHex");
+var convertRgb = require("./convertRgb");
 var convertType = process.argv[2];
 
 if(convertType === "hex")
